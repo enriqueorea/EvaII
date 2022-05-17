@@ -1,0 +1,27 @@
+.proposito{
+    &-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        border-radius: 1rem;
+        overflow: hidden;
+        &--info{
+            background-color: $amarillo;
+            padding: 2rem;
+            text-align: justify;
+            h3{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+        &--img{
+            @extend .side-img;
+            background-image: url('../img/Modulo 1/6Proposito_Modulo1.webp');
+            &.mod2{
+                background-image: url('../img/Modulo 2/14Proposito_Modulo2.webp')
+            }
+            &.mod3{
+                background-image: url('../img/Modulo 3/17Proposito_Modulo3.webp')
+            }
+        }
+    }
+}

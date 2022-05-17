@@ -1,0 +1,133 @@
+.contenido{
+	.contenido-banner{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+	  }
+	  .contenido-banner img{
+		margin: 0 auto;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		object-fit: cover;
+	  }
+	  
+	  .slide{
+		width: 100%;
+		display: grid;
+		place-content: center;
+		margin-bottom: 3rem;
+	  
+		
+	  }
+	  .slide img{
+		display: block;
+		max-width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }
+	  .swiper-pagination-bullet{
+		width: 3rem;
+		height: 1rem;
+		border-radius: 0;
+	  }
+	  
+	  .swiper-button-next, .swiper-button-prev {
+		color: #545479;
+		font-weight: bold;
+		top: 45%;
+	  }
+	  .swiper-pagination-bullet.swiper-pagination-bullet-active{
+		background: #545479;
+	  }
+	  //** mod 3 fold img **//
+	  @media (min-width: 991px) {
+		.swiper-button-next::after, .swiper-button-prev::after{
+		  font-size: 10rem;
+		}
+		.swiper-button-next{
+		  right: 25%;
+		}
+		.swiper-button-prev{
+		  left: 25%;
+		}
+	  }
+	  
+}
+//modulo 2
+.btn-link{
+  display: block;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+
+.wrapper {
+	align-items: center;
+	display: flex;
+	max-height: 100%;
+	justify-content: center;
+	width: 100%;
+	overflow: hidden;
+  }
+  #flipbook {
+	max-width: 100%;
+	height: 80rem;
+	img{
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit:cover ;
+	}
+  }
+
+.hard{
+    background: rgb(80, 79, 79);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page.bg-img{
+    background: url('../img/Modulo 1/Entornos\ visuales\ de\ aprendizaje_modulo1\ contenido\ fondo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page.bg-img p,.page.bg-img h3{
+    padding:10px 40px;
+    text-align: justify;
+}
+@media (max-width:450px) {
+    .page.bg-img p,.page.bg-img h3{
+		font-size: 1.2rem;
+        padding:10px 20px;
+        text-align: justify;
+    }
+	#flipbook{
+		height: 50rem;
+	}
+}
+
+.content-wrapper--icons{
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 2rem;
+	button{
+		border-radius: .5rem;
+		border: 1px solid $morado;
+		overflow: hidden;
+		&:hover{
+			transform: scale(1.1);
+		}
+		h3{
+			color: $morado;
+			padding: 1rem;
+			font-weight: bold;
+			border-top: 1px solid $morado;
+		}
+	}
+}

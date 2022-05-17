@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import 'base/var';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/utilidades';
+
+//layout index
+
+@import 'layout/header';
+@import 'layout/introduction';
+@import 'layout/competence';
+@import 'layout/information';
+@import 'layout/syllabus';
+@import 'layout/course';
+@import 'layout/working';
+@import 'layout/guidelines';
+@import 'layout/experts';
+@import 'layout/forum';
+@import 'layout/sources';
+@import 'layout/content';
+@import 'layout/footer';
+@import 'layout/download';
+
+//modulo 1
+
+@import 'layout/modulo1/banner';
+@import 'layout/modulo1/objective';
+@import 'layout/modulo1/introduction1';
+@import 'layout/modulo1/contents';
+@import 'layout/modulo1/activities';
+@import 'layout/modulo1/autoEvaluacion';
+
+//modulo 3

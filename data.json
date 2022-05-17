@@ -1,0 +1,270 @@
+{
+  "experienciaEducativa": "Entorno Virtual de Aprendizaje II",
+  "linkVideoPresentacion": "https://lumen.uv.mx/lumen/shared/embed/resource/6630",
+  "competencia": "El estudiante crea entornos virtuales de aprendizajes innovadores y didácticos, acorde a la naturaleza del contenido y las características de los estudiantes a quien va dirigido, actuando con compromiso y responsabilidad y asumiendo una actitud crítica. ",
+  "infoBasica": {
+    "nombre": "entornos virtuales de aprendizaje II.",
+    "area": "Diseño tecnopedagógico. ",
+    "creditos": 6,
+    "evaluacion": "Cursativa"
+  },
+  "expertoContenido": {
+    "nombre": "Mtro. Concepción Omar Ezquildo Vázquez ",
+    "email": "cezquildo@uv.mx",
+    "descripcion": "Licenciado en Pedagogía con estudio de Maestría en Didáctica de las Ciencias Sociales por la Universidad Veracruzana. Actualmente cursa el Doctorado en Educación en la Escuela Libre de Ciencias Políticas y Administración Pública de Oriente. Además, ha recibido una formación permanente en cursos y talleres relacionado con la didáctica y tecnología educativa. Es profesor interino en la facultad de Pedagogía, Región Veracruz, impartiendo experiencias relacionadas con el núcleo de formación social, psicológico y humano; quehacer profesional de docencia y mediación pedagógica; así como el quehacer profesional de TIC y pedagogía. "
+  },
+  "fuentesInformacion": {
+    "basicas": [
+      "Belloch, C. (2012). Entornos virtuales de aprendizaje [Archivo PDF].  http://www.formaciondocente.com.mx/04_RinconTecnologia/03_AmbientesVirtuales/Entornos%20Virtuales%20de%20Aprendizaje%203.pdf ",
+      "Begoña, G. (2002). Constructivismo y diseño de entornos virtuales de aprendizaje. Revista de Educación, 328, 225 - 247. https://www.educacionyfp.gob.es/revista-de-educacion/numeros-revista-educacion/numeros-anteriores/2002/re328/re328-13.html ",
+      "Edel-Navarro, R. (2010). Entornos virtuales de aprendizaje: la contribución de\" lo virtual\" en la educación. Revista mexicana de investigación educativa, 15(44), 7-15.  https://www.redalyc.org/articulo.oa?id=14012513002 ",
+      "Delgado, M., y Solano, A. (2015). Estrategias didácticas creativas en entornos virtuales para el aprendizaje. Revista Electrónica \"Actualidades Investigativas en Educación\", 9(2),1-21. https://www.redalyc.org/articulo.oa?id=44713058027 ",
+      "Díaz, S. (2019). Plataformas educativas, un entorno para profesores y alumnos. Revistas digitales para profesionales de la enseñanza, 2. https://www.feandalucia.ccoo.es/docu/p5sd4921.pdf ",
+      "Lezcano, L. N. (2016). La evaluación de los aprendizajes en entornos virtuales desde la perspectiva del estudiante [Archivo PDF]. https://www.iiis.org/CDs2016/CD2016Summer/papers/XA488ZA.pdf ",
+      "Martínez, N., De Gregorio, A. y Hervás, R. (2012). La evaluación del aprendizaje en entornos virtuales de enseñanza aprendizaje: notas para una reflexión. Revista Iberoamericana de Educación, 58(2). https://rieoei.org/historico/deloslectores/4320Martinez.pdf ",
+      "Salinas, M. I. (2011). Entornos virtuales de aprendizaje en la escuela: tipos, modelo didáctico y rol del docente [Archivo PDF]. https://eduteka.icesi.edu.co/gp/upload/Educaci%C3%B3n%20EVA.pdf.  ",
+      "Sánchez Rodríguez, J. (2009). PLATAFORMAS DE ENSEÑANZA VIRTUAL PARA ENTORNOS EDUCATIVOS. Pixel-Bit. Revista de Medios y Educación, 34, 217-233.  http://www.redalyc.org/articulo.oa?id=36812036015 "
+    ],
+    "complementarias": [
+      "Cedeño, E. y Murillo, J. (2019). Entornos virtuales de aprendizaje y   su   rol   innovador   en   el   proceso   de   enseñanza. Rehuso, 4(1), 119-127.  https://revistas.utm.edu.ec/index.php/Rehuso/workflow/submission/2156 ",
+      "Esteban-Albert, M., y Zapata-Ros, M. (2016). Estrategias de aprendizaje y eLearning. Un apunte para la fundamentación del diseño educativo en los entornos virtuales de aprendizaje. Revista de Educación a Distancia (RED), (50).  https://revistas.um.es/red/article/view/271261 ",
+      "García-Beltrán, Á., Martínez, R., Jaén, J. A., y Tapia, S. (2006). La autoevaluación como actividad docente en entornos virtuales de aprendizaje/enseñanza. Revista de Educación a Distancia. https://revistas.um.es/red/article/view/272241 ",
+      "Quiroz, J. S. (2011). Diseño y moderación de entornos virtuales de aprendizaje (EVA). Editorial UOC.  ",
+      "Silva Quiroz, J. (2010). El rol del tutor en los entornos virtuales de aprendizaje. Innovación Educativa, 10 (52), 13-23.  https://www.redalyc.org/articulo.oa?id=179420763002 ",
+      "Suárez, C. (2016). Los entornos virtuales de aprendizaje como instrumento de mediación. Education in the Knowledge Society (EKS), 4(1).  https://doi.org/10.14201/eks.14342 "
+    ]
+  },
+  "modulos": [
+    {
+      "modulo": 1,
+      "proposito": "El estudiante analizará los principios teóricos y elementos básicos que integran un Entorno Virtual de Aprendizaje (EVA), para considerarlos en el diseño de una propuesta de intervención tecnopedagógico que le posibilite un desarrollo profesional en el manejo de recursos y herramientas tecnológicas durante su proceso formativo. ",
+      "introduccion": "slider",
+      "contenido": {
+        "typeOf": "slider vertical",
+        "slides": [
+          {
+            "title": "Entornos Virtuales de Aprendizaje ",
+            "textContent": "Son espacios en la internet que conforman un conjunto de actividades plenamente estructurados y sistematizados en una plataforma virtual, que posibilitan el desarrollo de aprendizajes, recursos para el seguimiento y la interacción entre el estudiante y el profesor-tutor. "
+          },
+          {
+            "title": "Enseñanza  ",
+            "textContent": "Proceso educativo por el cual el docente proporciona los contenidos necesarios para el desarrollo de aprendizajes en los estudiantes, mediante el planteamiento de ambientes y las condiciones necesarias que conlleven a cumplir con los propósitos educativos desde una modalidad virtual.  "
+          },
+          {
+            "title": "Aprendizaje  ",
+            "textContent": "Proceso educativo donde el estudiante desarrolla habilidades y actitudes para generar sus propias representaciones mentales con base a un conjunto de contenidos plenamente seleccionados para su procesamiento cognitivo, otorgándole significatividad, sentido personal y utilidad en diversas situaciones reales de su contexto.  "
+          },
+          {
+            "title": "Evaluación  ",
+            "textContent": "Proceso por el cual se busca identificar el logro de los propósitos educativos y evidenciar la eficiencia de los planteamientos didácticos, con la finalidad de determinar el alcance de los aprendizajes en los estudiantes. "
+          }
+        ],
+        "actividades": [
+          {
+            "numeroDeActividad": 1,
+            "tituloActividad": "Organizador gráfico. Los principios teóricos que sustentan los Entornos Virtuales de Aprendizaje (EVA).",
+            "descripcionActividad": "Con esta primera actividad se revisarán los principales postulados teóricos que le dan sustento a los EVA, desde las dimensiones pedagógica, psicológica y tecnológica; debido a que al ser una propuesta educativa novedosa y emergente, hace necesario que se tenga una base teórica que posibilite en resignificar la práctica docente desde la educación virtual."
+          },
+          {
+            "numeroDeActividad": 2,
+            "tituloActividad": "Cuadro comparativo. Posturas teóricas del aprendizaje que contribuyen al desarrollo de un Entorno Virtual de Aprendizaje (EVA).",
+            "descripcionActividad": "Determina los postulados teóricos que sustentan los EVA, los cuales permiten identificar los alcances educativos que pueden ofrecer en el proceso formativo de los estudiantes. Por tal motivo, en esta segunda actividad se busca contrastar las posturas teóricas sobre el aprendizaje para que se posibilite tomar algunas consideraciones para el diseño e implementación de los EVA en diferentes escenarios educativos."
+          },
+          {
+            "numeroDeActividad": 3,
+            "tituloActividad": "Determina los aspectos y criterios de aprendizaje que deben evaluarse en un EVA. ",
+            "descripcionActividad": "El diseño e implementación de una propuesta de Entorno Virtual de Aprendizaje (EVA), considera además de estrategias didácticas, lineamientos y aspectos a evaluar los desempeños de aprendizaje en los estudiantes en el desarrollo de las actividades planteadas de manera virtual. Aunque sea una modalidad virtual que conlleva al aprendizaje autónomo, es necesario considerar ciertos criterios para una evaluación auténtica y formativa. Por tal sentido, en esta actividad se pretende que el estudiante diseñe una propuesta de evaluación para el EVA que diseñará en el desarrollo del curso-taller, tomando en cuentas las modalidades, tipos y metodologías que contribuyan a cumplir con los propósitos educativos.  "
+          }
+        ],
+        "foro": {
+          "numeroForo": 1,
+          "tituloForo": " Los EVA como alternativas para mejora de la educación.  ",
+          "descripcionForo": "En este primer foro se pretende que aportes tus percepciones u opiniones sobre cómo los Entornos Virtuales de Aprendizaje (EVA) pueden contribuir para la mejora de la educación formal. Teniendo en cuenta que los aportes deben ser con un sustento argumentativo, desde una postura respetuosa y tolerante ante los aportes del demás participante. Tratando de ser congruente en los aportes y hacer comentarios asertivos en las publicaciones de tres de tus compañeros. "
+        },
+        "fuentesInformacion": {
+          "basicas": [
+            "Belloch, C. (2012). Entornos virtuales de aprendizaje [Archivo PDF].  http://www.formaciondocente.com.mx/04_RinconTecnologia/03_AmbientesVirtuales/Entornos%20Virtuales%20de%20Aprendizaje%203.pdf ",
+            "Begoña, G. (2002). Constructivismo y diseño de entornos virtuales de aprendizaje. Revista de Educación, 328, 225 - 247. https://www.educacionyfp.gob.es/revista-de-educacion/numeros-revista-educacion/numeros-anteriores/2002/re328/re328-13.html ",
+            "Edel-Navarro, R. (2010). Entornos virtuales de aprendizaje: la contribución de\" lo virtual\" en la educación. Revista mexicana de investigación educativa, 15(44), 7-15.  https://www.redalyc.org/articulo.oa?id=14012513002 ",
+            "Lezcano, L. N. (2016). La evaluación de los aprendizajes en entornos virtuales desde la perspectiva del estudiante [Archivo PDF]. https://www.iiis.org/CDs2016/CD2016Summer/papers/XA488ZA.pdf ",
+            "Martínez, N., De Gregorio, A. y Hervás, R. (2012). La evaluación del aprendizaje en entornos virtuales de enseñanza aprendizaje: notas para una reflexión. Revista Iberoamericana de Educación, 58(2). https://rieoei.org/historico/deloslectores/4320Martinez.pdf `"
+          ],
+          "complementarias": [
+            "Quiroz, J. S. (2011). Diseño y moderación de entornos virtuales de aprendizaje (EVA). Editorial UOC.   ",
+            "Silva Quiroz, J. (2010). El rol del tutor en los entornos virtuales de aprendizaje. Innovación Educativa, 10 (52), 13-23.  https://www.redalyc.org/articulo.oa?id=179420763002 ",
+            "Suárez, C. (2016). Los entornos virtuales de aprendizaje como instrumento de mediación. Education in the Knowledge Society (EKS), 4(1).  https://doi.org/10.14201/eks.14342 "
+          ]
+        }
+      }
+    },
+    {
+      "modulo": 2,
+      "proposito": "El estudiante determinará los elementos curriculares y pedagógicos a considerar en el proceso instruccional de una propuesta de Entorno Virtual de Aprendizaje (EVA), desarrollando habilidades tecnológicas para el manejo de recursos y herramientas que le posibilite lograr los propósitos educativos del presente módulo.   ",
+      "introduccion": "Para este segundo módulo se pretende que definas el proceso para la elaboración de un Entorno Virtual de Aprendizaje (EVA), abordando la tipología y clasificación de plataformas o espacios virtuales que contribuyan para el diseño de una propuesta educativa. De esta manera, los temas que se revisarán son relacionados con los elementos que conforman un EVA y el procedimiento que se debe llevar a cabo en el diseño de una propuesta, donde la indagación y tratamiento de la información será de suma ayuda para realizar las actividades que se te soliciten. Por ello, desarrollarás habilidades que te posibiliten el manejo de herramientas y recursos tecnológicos, vinculando los conocimientos pedagógicos en cada una de las actividades planteadas, asumiendo actitudes de responsabilidad, compromiso y disponibilidad por el trabajo autónomo. Asimismo, se identificarán las principales características de los espacios y plataformas virtuales que posibiliten en el diseño tecnopedagógico de la propuesta del EVA, considerando sus ventajas o desventajas que puedan ofrecer y de ahí determines cuál es la más favorable. Por consiguiente, en este módulo se han de delimitar los aspectos esenciales para que en el módulo 3 comiences a desarrollar la actividad instruccional de tu propuesta educativa. ",
+      "contenido": {
+        "typeOf": "buttons with modal",
+        "buttons": [
+          {
+            "title": "Herramientas tecnológicas",
+            "textContent": "Es un conjunto de programas informáticos o tecnológicos que están al alcance para el diseño de actividades o material que posibilite el logro de ciertos propósitos educativos, permitiendo una interactividad virtual. "
+          },
+          {
+            "title": "Recursos tecnológicos",
+            "textContent": "Son los medios o equipos que contribuyen en la realización de actividades educativas para cumplir con una meta o propósito educativo. Éstos son tangibles y pueden manipularse por parte del estudiante o docente para desarrollar habilidades tecnológicas o informáticas, (como el caso de una computadora o pizarra digital). "
+          },
+          {
+            "title": "Plataforma educativa virtual",
+            "textContent": "Es un programa que integra recursos y herramientas destinados con fines pedagógicos, contribuyendo a la creación de entornos virtuales de aprendizaje para promover un proceso formativo a través de la Internet. "
+          },
+          {
+            "title": "Educación virtual:",
+            "textContent": "Modalidad de educación que funciona de manera asincrónica, es decir, que tanto docente como estudiantes no coinciden en una hora o momento determinado. Aunque se hacen uso de recursos, herramientas y plataformas virtuales para plantear las actividades de aprendizaje que el estudiante realizará de acuerdo a sus tiempos y espacios, donde el docente realizará retroalimentaciones en la revisión de ellas."
+          }
+        ],
+        "actividades": [
+          {
+            "numeroDeActividad": 4,
+            "tituloActividad": " Explica los elementos que deben integrar un EVA.",
+            "descripcionActividad": "Con esta actividad se considera que tengas un referente teórico sobre los elementos pedagógicos esenciales que integran un Entorno Virtual de Aprendizaje (EVA), tomando en cuenta que te servirá para el diseño de tu propuesta. "
+          },
+          {
+            "numeroDeActividad": 5,
+            "tituloActividad": "Cuadro comparativo. Clasificación de las diversas plataformas virtuales que posibilitan el diseño de un EVA.",
+            "descripcionActividad": "Con esta actividad clasificarás las plataformas virtuales, tanto comerciales como de código abierto, que posibilitarán en el diseño de una propuesta de entorno virtual de aprendizaje, de acuerdo a las características de las actividades, necesidades educativas de la comunidad educativa a la que se dirigirá y los alcances tecnológicos con los que se cuente.  "
+          },
+          {
+            "numeroDeActividad": 6,
+            "tituloActividad": "Diagrama de Flujo. Proceso metodológico para el diseño de un EVA.",
+            "descripcionActividad": "En esta actividad tendrás que establecer las etapas o fases que se siguen para el desarrollo de un entorno virtual de aprendizaje, considerando las diversas actividades que se efectúan desde el diseño hasta su implementación, con el propósito de identificar las limitantes o fortalezas que conlleven su cumplimiento."
+          },
+          {
+            "numeroDeActividad": 7,
+            "tituloActividad": " Exposición de las características y oportunidades para emplear en los entornos básicos que contribuyan al diseño de un EVA.",
+            "descripcionActividad": "Con esta actividad indagarás en diversas fuentes de información sobre las características y las oportunidades que ofrece un entorno básico virtual para potencializar el aprendizaje de los estudiantes, con la finalidad de que en el diseño de tu propuesta de intervención los consideres y puedas diseñar las actividades de acuerdo a las necesidades de los participantes y el espacio interactivo en el que se desarrolle. "
+          },
+          {
+            "numeroDeActividad": 8,
+            "tituloActividad": "Exposición de las características y oportunidades para emplear plataformas virtuales que contribuyan al diseño de un EVA. ",
+            "descripcionActividad": "Con esta actividad indagarás en diversas fuentes de información sobre las características y las oportunidades que ofrecen las plataformas virtuales para el diseño de entornos de aprendizaje, ya que previamente se abordó sobre la tipología y características generales de ellas, por lo que, antes de comenzar con el diseño instrucción, es necesario que afiance algunos elementos que permiten llevar a cabo dicha actividad. "
+          },
+          {
+            "numeroDeActividad": 9,
+            "tituloActividad": " Cuadro comparativo. Contraste de los entornos básicos y las plataformas virtuales para el diseño de un EVA.",
+            "descripcionActividad": "Con esta actividad contrastarás las plataformas virtuales con respecto a los entornos básicos, donde realizarás un cuadro comparativo considerando los siguientes indicadores: características técnicas, recurso que ofrece, funciones, ventajas y desventajas para el diseño de un entorno virtual de aprendizaje. "
+          }
+        ],
+        "fuentesInformacion": {
+          "basicas": [
+            "Belloch, C. (2012). Entornos virtuales de aprendizaje [Archivo PDF].  http://www.formaciondocente.com.mx/04_RinconTecnologia/03_AmbientesVirtuales/Entornos%20Virtuales%20de%20Aprendizaje%203.pdf ",
+            "Begoña, G. (2002). Constructivismo y diseño de entornos virtuales de aprendizaje. Revista de Educación, 328, 225 - 247. https://www.educacionyfp.gob.es/revista-de-educacion/numeros-revista-educacion/numeros-anteriores/2002/re328/re328-13.html ",
+            "Esteban-Albert, M., y Zapata-Ros, M. (2016). Estrategias de aprendizaje y eLearning. Un apunte para la fundamentación del diseño educativo en los entornos virtuales de aprendizaje. Revista de Educación a Distancia (RED), (50).  https://revistas.um.es/red/article/view/271261 ",
+            "Salinas, M. I. (2011). Entornos virtuales de aprendizaje en la escuela: tipos, modelo didáctico y rol del docente [Archivo PDF]. https://eduteka.icesi.edu.co/gp/upload/Educaci%C3%B3n%20EVA.pdf.  "
+          ],
+          "complementarias": [
+            "Cedeño, E. y Murillo, J. (2019). Entornos virtuales de aprendizaje y   su   rol   innovador   en   el   proceso   de   enseñanza. Rehuso, 4(1), 119-127.  https://revistas.utm.edu.ec/index.php/Rehuso/workflow/submission/2156 ",
+            "Suárez, C. (2016). Los entornos virtuales de aprendizaje como instrumento de mediación. Education in the Knowledge Society (EKS), 4(1).  https://doi.org/10.14201/eks.14342 "
+          ]
+        }
+      }
+    },
+    {
+      "modulo": 3,
+      "proposito": "El estudiante diseñará un Entorno Virtual de Aprendizaje (EVA) desde una plataforma virtual que se adapte a las características de la asignatura o materia y las necesidades de los participantes durante la implementación. ",
+      "introduccion": "slider",
+      "contenido": {
+        "typeOf": "tabs",
+        "tabs": [
+          {
+            "title": "Propósitos educativos ",
+            "textContent": "Estos serán los que guíen a los alumnos y a las alumnas en la construcción de su propio aprendizaje. Las o los docentes proponen un propósito educativo con el fin de planear estrategias para el curso, dejando en claro lo que esperan lograr y destacando el proceso de aprendizaje sobre el resultado final. Implica conocimientos, habilidades y actitudes. "
+          },
+          {
+            "title": "Aprendizajes esperados ",
+            "textContent": "Los aprendizajes esperados son indicadores de logro que, en términos de la temporalidad establecida en los programas de estudio, definen lo que se espera de cada alumno en términos de saber, saber hacer y saber ser; además, le dan con creación al trabajo docente al hacer constatable lo que los estudiantes logran, y constituyen un referente para la planificación y la evaluación en el aula. 
+
+            Los aprendizajes esperados gradúan progresivamente los conocimientos, las habilidades, las actitudes y los valores que los alumnos deben alcanzar para acceder a conocimientos cada vez más complejos y al desarrollo de competencias. 
+            
+            Secretaría de Educación Pública. (2011). “Trabajar en colaboración para construir el aprendizaje”, en: Plan de estudios 2011. Educación Básica, México, SEP, pp. 32. "
+          },
+          {
+            "title": "Contenidos ",
+            "textContent": "El desarrollo de contenidos educativos implica tener presente los resultados de aprendizaje que se pretenda lograr en los alumnos participantes a distancia, esto implica que el contenido debe contemplar estrategias para desarrollar actividades de aprendizaje y métodos para evidenciar los logros obtenidos a fin de facilitar su evaluación. Al mismo tiempo los contenidos educativos deben contemplar la identificación del conocimiento que sea indispensable para el alumno a fin de que genere destrezas que lo hagan útil en la sociedad. 
+
+ 
+
+            Garduño Vera, R. (2009). Contenido educativo en el aprendizaje virtual. Investigación bibliotecológica, 23(47), 15-44. http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0187-358X2009000100002&lng=es&tlng=es. "
+          },
+          {
+            "title": "Actividades de aprendizaje ",
+            "textContent": "En las diferentes modalidades de aprendizaje; virtuales, presenciales y bimodales; es de interés abordar el diseño de las actividades que permiten generar aprendizajes en el estudiante ya que son parte clave para el desarrollo de las competencias sobre todo en un modelo de enseñanza basado en el aprendiente. Por lo que se entiende como actividad de aprendizaje al conjunto de acciones o tareas que posibilitan al participante aprender de los contenidos, las mismas deben ser planificadas por el docente. 
+
+            El diseño de las actividades debe enfocarse en el logro del aprendizaje y no como un medio para comprobarlo, generalmente cuando se planifican las actividades o ejercicios de un curso se hacen con el fin de evaluar los contenidos presentados en los materiales y no en generar aprendizajes nuevos. Las actividades de aprendizaje se aplican para aprender, adquirir o construir el conocimiento sobre una o varias temáticas mediante la puesta en práctica de los contenidos. 
+            
+            Una forma de clasificar las actividades es por medio de la taxonomía de Bloom, ya que esta define el nivel de conocimiento deseado en el diseño de la actividad planificada, por ejemplo: comprensión, aplicación, análisis, síntesis y evaluación; todo depende del aprendizaje que se desea lograr en el participante, así será la construcción de la actividad. Además, hay actividades de memorización donde el estudiante solo reproduce la información recibida y actividades de aplicación que permiten al participante generar nuevo conocimiento.  
+            
+             
+            
+            Camacho Zúñiga, M. G., LaraAlemán, Y. y Sandoval Díaz G. (2016). Estrategias de aprendizajes para Entornos Virtuales.  https://acceso.virtualeduca.red/documentos/ponencias/puerto-rico/1399-63cb.pdf "
+          },
+          {
+            "title": "Propuesta de evaluación. ",
+            "textContent": "La evaluación es un elemento constitutivo de los procesos de enseñanza y de aprendizaje, y como tal, resulta fundamental para producir información que les permita a los estudiantes reconocer aciertos y dificultades en su proceso y actuar en consecuencia, implementando estrategias de estudio y aprendizaje. Al mismo tiempo, brinda información vital para que el docente reoriente su diseño de enseñanza. Desde esta perspectiva, la evaluación se realiza en diferentes momentos del proceso educativo y sobre diferentes elementos y situaciones. La cuestión de la evaluación relacionada al uso de tecnología y la comunicación no se refiere sólo a transferir modelos de evaluación tradicionales a entornos virtuales o analizar si es necesario generar nuevas concepciones relacionadas con los propósitos y formas de evaluación. Lo que debe interesar son los fundamentos pedagógicos que sustentan una evaluación auténtica en los entornos virtuales, qué oportunidades de aprendizaje y evaluación se pueden crear mediante tecnología de la información y la comunicación, o en qué aspectos se enriquecen o empobrecen actuaciones tanto de los profesores como de los estudiantes. 
+
+            En este contexto la estrategia e instrumentos de evaluación de aprendizaje asumen particular relevancia como facilitadores de la interacción entre quienes participan. Ejemplo de ello son los foros, los e-portfolios y las rúbricas:   
+            
+            Foros: permiten trabajar en forma asincrónica con los estudiantes, visualizar y acompañar la construcción del conocimiento. El andamiaje pedagógico está dado por la devolución a un planteo, el pedido de revisión, una pregunta y/o repregunta que obliga a revisar posicionamientos, reflexionar, deliberar y tomar postura. Más allá de la intencionalidad pedagógica con la que se diseñe un foro, es reconocida la interacción e intercambio que propicia entre todos los participantes   
+            
+            E-portfolios: también conocido como cuaderno de trabajo, reflejan el proceso de aprendizaje a través de la recopilación de “evidencias” de ese trayecto. Como instrumento de evaluación posee diversas aplicaciones. Permite que el estudiante sea protagonista de su aprendizaje y monitoree sus progresos y dificultades. Es una técnica relativamente reciente y de gran utilidad para la autoevaluación, coevaluación y la heteroevaluación.   
+            
+            Rúbricas: estas permiten gestionar y sistematizar el proceso evaluativo, facilitan la descripción de los criterios a seguir para valorar el trabajo realizado. Suelen emplearse para juzgar distintos tipos de productos, competencias y habilidades adquiridas por los estudiantes, proyectos, presentaciones digitales, trabajos grupales etc. Contiene elementos a evaluar y en cada uno de ellos se realiza una descripción de diferentes niveles, se extrapolan por lo novato en un extremo y la experta por otro. Ofrecen gran precisión.  
+            
+             
+            
+            Lezcano, L. N. (2016). La evaluación de los aprendizajes en entornos virtuales desde la perspectiva del estudiante [Archivo PDF].  https://www.iiis.org/CDs2016/CD2016Summer/papers/XA488ZA.pdf "
+          }
+        ],
+        "actividades": [
+          {
+            "numeroDeActividad": 10,
+            "tituloActividad": "Elementos curriculares que integrarán el EVA a diseñar.",
+            "descripcionActividad": "Para esta primera actividad del módulo 3 se espera que desarrolles tus habilidades tecnológicas y los conocimientos pedagógicos para que diseñes un entorno virtual de aprendizaje con respecto a una materia o asignatura de los diversos niveles educativos, Tomando en cuenta la esencia de los contenidos, los materiales didácticos que vas a diseñar tecnológicamente y el nivel cognitivo de la población a la que será dirigida. "
+        },
+          {
+            "numeroDeActividad": 11,
+            "tituloActividad": "Diseña la propuesta de EVA de acuerdo a los elementos abordados.",
+            "descripcionActividad": "Con esta actividad pondrás en práctica lo que has venido abordando durante el curso porque tendrás que diseñar un entorno virtual de aprendizaje, de acuerdo con los elementos curriculares que se han enunciado en la actividad previa. Por consiguiente, deberás seleccionar una plataforma virtual que se adapte a tus necesidades educativas y te permita ofrecer una propuesta innovadora que responda a la modalidad de educación virtual. "
+          },
+          {
+            "numeroDeActividad": 12,
+            "tituloActividad": "Implementa una unidad o bloque del EVA. ",
+            "descripcionActividad": "Con esta actividad presentará evidencias sobre la implementación del entorno virtual de aprendizaje, con la finalidad de diversificar el contenido de su proyecto y haya una valoración por parte del docente tutor y los demás participantes en el curso taller. "          },
+          {
+              "numeroDeActividad": 13,
+              "tituloActividad": "Valora el alcance educativo de los participantes en la implementación del EVA.",
+              "descripcionActividad": "Para esta actividad necesitarás consultar los resultados que se hayan obtenido por parte de los participantes en las evaluaciones planteadas en el EVA, así como de la información proporcionada sobre sus experiencias con relación a las actividades e interactividad con el ambiente de aprendizaje virtual. Esto te servirá para ofrecer conclusiones relacionadas con la implementación del EVA y plantear mejoras o ajustes para fututas situaciones.  "
+
+          }
+        ],
+        "foro": {
+          "numeroForo": 2,
+          "tituloForo": " Los EVA como alternativas para mejora de la educación.  ",
+          "descripcionForo": "En este primer foro se pretende que aportes tus percepciones u opiniones sobre cómo los Entornos Virtuales de Aprendizaje (EVA) pueden contribuir para la mejora de la educación formal. Teniendo en cuenta que los aportes deben ser con un sustento argumentativo, desde una postura respetuosa y tolerante ante los aportes del demás participante. Tratando de ser congruente en los aportes y hacer comentarios asertivos en las publicaciones de tres de tus compañeros. "
+        },
+        "fuentesInformacion": {
+          "basicas": [
+            "Belloch, C. (2012). Entornos virtuales de aprendizaje [Archivo PDF].  http://www.formaciondocente.com.mx/04_RinconTecnologia/03_AmbientesVirtuales/Entornos%20Virtuales%20de%20Aprendizaje%203.pdf ",
+            "Begoña, G. (2002). Constructivismo y diseño de entornos virtuales de aprendizaje. Revista de Educación, 328, 225 - 247. https://www.educacionyfp.gob.es/revista-de-educacion/numeros-revista-educacion/numeros-anteriores/2002/re328/re328-13.html ",
+            "Edel-Navarro, R. (2010). Entornos virtuales de aprendizaje: la contribución de\" lo virtual\" en la educación. Revista mexicana de investigación educativa, 15(44), 7-15.  https://www.redalyc.org/articulo.oa?id=14012513002 ",
+            "Lezcano, L. N. (2016). La evaluación de los aprendizajes en entornos virtuales desde la perspectiva del estudiante [Archivo PDF]. https://www.iiis.org/CDs2016/CD2016Summer/papers/XA488ZA.pdf ",
+            "Martínez, N., De Gregorio, A. y Hervás, R. (2012). La evaluación del aprendizaje en entornos virtuales de enseñanza aprendizaje: notas para una reflexión. Revista Iberoamericana de Educación, 58(2). https://rieoei.org/historico/deloslectores/4320Martinez.pdf `"
+          ],
+          "complementarias": [
+            "Quiroz, J. S. (2011). Diseño y moderación de entornos virtuales de aprendizaje (EVA). Editorial UOC.   ",
+            "Silva Quiroz, J. (2010). El rol del tutor en los entornos virtuales de aprendizaje. Innovación Educativa, 10 (52), 13-23.  https://www.redalyc.org/articulo.oa?id=179420763002 ",
+            "Suárez, C. (2016). Los entornos virtuales de aprendizaje como instrumento de mediación. Education in the Knowledge Society (EKS), 4(1).  https://doi.org/10.14201/eks.14342 "
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.contenido{
+    &-wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 35rem));
+        place-content: center;
+        gap: 2rem;
+        .contenido-link{
+            position: relative;
+            text-decoration: none;
+            background-color: $amarillo;
+            border-radius: 1rem;
+            overflow: hidden;
+            text-align: center;
+            &:hover .hover{
+                display: grid;
+            }
+            &:hover img{
+                transform: scale(1.2);
+            }
+            .hover{
+                display: none;
+                place-content: center;
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%;
+                height: 100%;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.7);
+                opacity: 1;
+                p{
+                    font-weight: bold;
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
+
+
+

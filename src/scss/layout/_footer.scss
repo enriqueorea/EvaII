@@ -1,0 +1,12 @@
+footer{
+    background: $rosa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        padding: 1rem;
+        max-width: 20rem;
+        max-height: 30rem;
+        object-fit: contain;
+    }
+}

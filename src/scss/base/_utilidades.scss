@@ -1,0 +1,39 @@
+.encabezado{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 5rem 0;
+    &-titulo{
+        width: 75%;
+        border-bottom: 3px solid $amarillo;
+    }
+    &-vineta{
+        content: url("../img/Inicio/Icono_Docencia MpT_viñeta.png");
+        height: 3rem;
+    }
+}
+
+.side-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 250px;
+
+}
+div.instruccion {
+    p{
+        display: flex;
+        align-items: center;
+        font-size: clamp(1.2rem, 2vw, 2.5rem);
+        text-transform: none!important;
+        text-align: center;
+        margin-bottom: 5rem;
+
+    }
+    span{
+        font-size: 1rem;
+        color: $morado;
+        margin-right: 1rem;
+    }
+
+}

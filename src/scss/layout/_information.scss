@@ -1,0 +1,23 @@
+.informacion-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    border-radius: 1rem;
+    overflow: hidden;
+    .informacion-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: $verde;
+        p{
+            font-size: 1.7rem;
+            text-align: center;
+            padding:0 2%;
+            line-height: 1.8;
+        }
+    }
+    .informacion-img{
+        @extend .side-img;
+        width: 100%;
+        background-image: url('../img/Inicio/2InfoBasica.webp');
+    }
+}

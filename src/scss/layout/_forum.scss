@@ -1,0 +1,13 @@
+.foro{
+    &-container{
+        &--btn{
+            display: block;
+            background: transparent;
+            margin: 0 auto;
+            &:hover img{
+                transform: scale(1.2);
+            }
+        }
+
+    }
+}

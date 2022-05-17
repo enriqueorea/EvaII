@@ -1,0 +1,53 @@
+.actividades-container{
+    display: grid;
+    place-content: center;
+    &--btn{
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        overflow: hidden;
+        background-color: transparent;
+        img{
+            background-color: $morado;
+            padding: 3rem;
+        }
+        p{
+            margin: 0;
+            padding: 1rem;
+            width: 100%;
+            font-size: 2.4rem;
+            font-weight: bold;
+            background-color: $rosa;
+        }
+        &:hover, &:focus{
+            transform: scale(1.2);
+        }
+    }
+}
+.encabezado-actividades{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    border-bottom: .5rem solid $morado;
+    h3{
+        color: $morado;
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+}
+#carouselActividades{
+    .carousel-item{
+        text-align: justify;
+        padding: 5rem 0;
+        p{
+            margin: 0 auto;
+            width: 70%;
+        }
+    }
+    .fa-chevron-left,
+    .fa-chevron-right{
+        color: $morado;
+        font-size: 5rem;
+    }
+}

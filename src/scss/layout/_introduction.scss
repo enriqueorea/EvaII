@@ -1,0 +1,11 @@
+
+.contenedor-video{
+    position: relative;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    iframe{
+        aspect-ratio: 16/9;
+        width: 100%;
+    }
+}

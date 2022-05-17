@@ -1,0 +1,77 @@
+.autoeva{
+    padding: $separacion 0;
+    h2{
+        border-bottom: 5px solid $morado;
+        width: 75%;
+        font-weight: $bold;
+    }
+    .indicacion{
+        margin-left: 3rem;
+        margin-bottom: 10rem;
+        p{
+            font-style: italic;
+            text-align: justify;
+            padding: $separacion/2;
+            span{
+                color: $morado;
+                margin-right: 2rem;
+            }
+        }
+    }
+}
+.contenedor-eva{
+    .pregunta{
+        text-align: justify;
+        padding: $separacion / 2;
+        h3{
+            font-weight: $bold;
+            text-transform: uppercase;
+        }
+        .opciones{
+            .opcion{
+                p{
+                    text-align: center;
+                    font-weight: $bold;
+                    &:nth-child(2){
+                        text-align: justify;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        @include tablet{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            h3{
+                max-width: 20%;
+                flex-grow: 1;
+                font-size: 2rem;
+                text-align: justify;
+            }
+            .opciones{
+             display: flex;
+             .opcion{
+                 max-width: 20%;
+                 margin: 0 auto;
+                 p{
+                    text-align: center;
+                    font-size: 3rem;
+                    &:nth-child(2){
+                        text-align: justify;
+                        font-size: 1.5rem;
+                    }
+
+                 }
+             }
+            }
+            .respuestas{
+                max-width: 20%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
