@@ -557,6 +557,10 @@ div.instruccion span {
   .lineamientos-contenedor .side {
     cursor: pointer; }
 
+.expertos .modal-header,
+.expertos .modal-footer {
+  border: none; }
+
 .expertos-card {
   max-width: 30rem;
   border-radius: 1rem;
@@ -575,7 +579,9 @@ div.instruccion span {
       margin: 1rem;
       color: black;
       background: transparent;
-      align-self: end; }
+      align-self: end;
+      border: .1rem solid transparent;
+      transition: all .5s ease-in-out; }
       .expertos-card--content button:hover {
         border: .1rem solid black; }
   .expertos-card--img {

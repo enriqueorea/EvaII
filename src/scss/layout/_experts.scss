@@ -1,4 +1,8 @@
 .expertos{
+    .modal-header,
+    .modal-footer {
+        border: none;
+    }
     &-card{
         max-width: 30rem;
         border-radius: 1rem;
@@ -19,6 +23,8 @@
                 color: black;
                 background: transparent;
                 align-self: end;
+                border: .1rem solid transparent;
+                transition: all .5s ease-in-out;
                 &:hover{
                     border: .1rem solid black;
                 }
