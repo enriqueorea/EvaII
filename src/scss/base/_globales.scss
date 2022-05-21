@@ -1,8 +1,8 @@
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    scroll-padding-top: 9rem;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
 }
 // @media (max-width: 991px) {
 //     html{
@@ -10,98 +10,102 @@ html {
 //     }
 // }
 * {
-    // text-transform: capitalize;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    // transition: .2s linear;
+  // text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  // transition: .2s linear;
 }
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 body {
-    font-family: $fuentePrincipal;
-    font-size: 1.6rem;
+  font-family: $fuentePrincipal;
+  font-size: 1.6rem;
 }
 
 p {
-    font-size: 1.8rem;
-
+  font-size: 1.8rem;
 }
 .contenedor {
-    max-width: 120rem;
-    width: 95%;
-    margin: 0 auto;
+  max-width: 120rem;
+  width: 95%;
+  margin: 0 auto;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 h3 {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-h1, h2, h3, h4 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
-main{
-    padding: 10rem 7%;
+main {
+  padding: 10rem 7%;
 }
-.bg-amarillo{
-    background-color: $amarillo;
+.bg-amarillo {
+  background-color: $amarillo;
 }
-.bg-verde{
-    background-color: $verde!important;
+.bg-verde {
+  background-color: $verde !important;
 }
-.bg-morado{
-    background-color: $morado;
+.bg-morado {
+  background-color: $morado;
 }
-.bg-rosa{
-    background-color: $rosa;
+.bg-rosa {
+  background-color: $rosa;
 }
-.descarga{
-    display: grid;
-    place-content: center;
-    margin-top: 5rem;
-    a{
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: black;
-        font-size: 2rem;
-        font-weight: bold;
-        border: .2rem solid $amarillo;
-        border-radius: 1rem;
-        p{
-            margin: 0;
-            padding: .5rem;
-        }
-        img{
-            background-color: $amarillo;
-            padding: 1rem;
-        }
-        &:hover{
-            border: .2rem solid $verde;
-            background-color: $verde;
-            p{
-                color: white;
-            }
-            img{
-                background-color: $verde;
-            }
-        }
+.descarga {
+  display: grid;
+  place-content: center;
+  margin-top: 5rem;
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0.2rem solid $rosa;
+    border-radius: 1rem;
+    p {
+      margin: 0;
+      padding: 0.5rem;
     }
+    img {
+      background-color: $rosa;
+      padding: 1rem;
+    }
+    &:hover {
+      border: 0.2rem solid $morado;
+      background-color: $morado;
+      p {
+        color: white;
+      }
+      img {
+        background-color: $morado;
+      }
+    }
+  }
 }

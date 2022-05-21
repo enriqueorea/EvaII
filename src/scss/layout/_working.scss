@@ -1,73 +1,74 @@
-.dinamica-contenedor{
-    button{
-        font-size: 2.8rem;
-        background-color: transparent;
-        border-radius: 1rem;
-        color: $verde;
-    }
-    .dinamica-btn{
-
-        max-width: 30rem;
-        margin: 0 auto;
-        padding: 2.5rem;
-    }
-    .dinamica-modulo{
-        margin: 0 auto;
-        max-width: 30rem;
-    }
+.dinamica-contenedor {
+  button {
+    font-size: 2.4rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 1rem;
+    color: $morado;
+  }
+  .dinamica-btn {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+  }
+  .dinamica-modulo {
+    margin: 0 auto;
+    max-width: 30rem;
+  }
 }
 
-.dinamica{
-    .modal-header, .modal-footer{
-        border: none;
+.dinamica {
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+  .modal-footer {
+    button {
+      font-size: 2rem;
     }
-    #dinamicaModal{
-        .modal-content{
-            background-color: $rosa;
-        }
+  }
+  #dinamicaModal {
+    .modal-content {
+      background-color: $rosa;
+    }
 
-        .modal-body{
-            text-align: justify;
-            p{
-                padding: 0 1rem;
-                font-size: 1.6rem;
-            }
-        }
-        .modal-footer{
-            button{
-                font-size: 2rem;
-            }
-        }
+    .modal-body {
+      text-align: justify;
+      p {
+        padding: 0 1rem;
+        font-size: 1.6rem;
+      }
     }
-    td, tr{
-        border: 1px solid black;
-        // background-color: white;
-        text-align: center;
+  }
+  td,
+  tr {
+    border: 1px solid black;
+    // background-color: white;
+    text-align: center;
+  }
+  td {
+    background-color: white;
+  }
+  tr {
+    &.bg-amarillo {
+      td {
+        @extend .bg-amarillo;
+      }
     }
-    td{
-        background-color: white;
+  }
+  table {
+    p {
+      font-size: 1.6rem;
     }
-    tr{
-        &.bg-amarillo{
-            td{
-                @extend .bg-amarillo;
-            }
-        }
-
-    }
-    table{
-        p{
-            font-size: 1.6rem;
-        }
-    }
+  }
 }
 
 @media (max-width: 450px) {
-    .dinamica{
-        table{
-            p{
-                font-size: 1rem;
-            }
-        }
+  .dinamica {
+    table {
+      p {
+        font-size: 1rem;
+      }
     }
+  }
 }

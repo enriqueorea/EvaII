@@ -1,25 +1,26 @@
-.competencia-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    border-radius: 1rem;
-    overflow: hidden;
-    .competencia-info{
-        background-color: $amarillo;
-        h3{
-            font-size: 3rem;
-            margin: 2rem 0;
-            padding: 0 2%;
-        }
-        p{
-            font-size: 1.7rem;
-            text-align: justify;
-            padding: 2%;
-            line-height: 1.8;
-        }
+.competencia-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  border-radius: 1rem;
+  overflow: hidden;
+  min-height: 35rem;
+  .competencia-info {
+    background-color: $morado;
+    color: $blanco;
+    padding: 5% 10%;
+    h3 {
+      font-size: 3rem;
+      margin: 2rem 0;
     }
-    .competencia-img{
-        @extend .side-img;
-        width: 100%;
-        background-image: url('../img/Inicio/1Competencia.webp');
+    p {
+      font-size: 1.7rem;
+      text-align: justify;
+      line-height: 1.8;
     }
+  }
+  .competencia-img {
+    @extend .side-img;
+    width: 100%;
+    background-image: url("../img/Inicio/1Competencia.webp");
+  }
 }

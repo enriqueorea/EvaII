@@ -11,7 +11,9 @@ html {
   border: none;
   text-decoration: none; }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit; }
 
 body {
@@ -47,7 +49,10 @@ h3 {
 h4 {
   font-size: 1.5rem; }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0; }
 
 main {
@@ -76,21 +81,21 @@ main {
     color: black;
     font-size: 2rem;
     font-weight: bold;
-    border: 0.2rem solid #FFD13E;
+    border: 0.2rem solid #EFCACA;
     border-radius: 1rem; }
     .descarga a p {
       margin: 0;
-      padding: .5rem; }
+      padding: 0.5rem; }
     .descarga a img {
-      background-color: #FFD13E;
+      background-color: #EFCACA;
       padding: 1rem; }
     .descarga a:hover {
-      border: 0.2rem solid #45C6AA;
-      background-color: #45C6AA; }
+      border: 0.2rem solid #545479;
+      background-color: #545479; }
       .descarga a:hover p {
         color: white; }
       .descarga a:hover img {
-        background-color: #45C6AA; }
+        background-color: #545479; }
 
 .encabezado {
   display: flex;
@@ -99,7 +104,7 @@ main {
   margin: 5rem 0; }
   .encabezado-titulo {
     width: 75%;
-    border-bottom: 3px solid #FFD13E; }
+    border-bottom: 0.5rem solid #545479; }
   .encabezado-vineta {
     content: url("../img/Inicio/Icono_Docencia MpT_viñeta.png");
     height: 3rem; }
@@ -133,7 +138,7 @@ div.instruccion span {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #FFD13E; }
+  background-color: #545479; }
   .header-logo {
     display: flex;
     align-items: center; }
@@ -144,6 +149,9 @@ div.instruccion span {
       color: #FFF; }
     .header-logo img {
       height: 8rem; }
+      @media (max-width: 500px) {
+        .header-logo img {
+          height: 5rem; } }
   .header-navbar .navbar {
     margin: 0; }
     .header-navbar .navbar a {
@@ -152,16 +160,19 @@ div.instruccion span {
       color: #fff; }
       .header-navbar .navbar a.active {
         border-bottom: 0.1rem solid #FFF;
-        padding-bottom: .5rem; }
+        padding-bottom: 0.5rem; }
       .header-navbar .navbar a:hover {
         border-bottom: 0.1rem solid #FFF;
-        padding-bottom: .5rem; }
+        padding-bottom: 0.5rem; }
   .header-link {
     position: fixed;
     top: -3px;
     right: 0; }
     .header-link img {
       height: 100%; }
+      @media (max-width: 500px) {
+        .header-link img {
+          height: 1.5rem; } }
   .header #menu-btn {
     display: none;
     background: transparent;
@@ -178,14 +189,15 @@ div.instruccion span {
     right: -100%;
     background: #545479;
     width: 30rem;
-    height: calc(100vh - 9.5rem); }
+    height: calc(100vh - 9.5rem);
+    transition: all 0.5s ease-in-out; }
     .header-navbar.active {
       right: 0; }
     .header-navbar .navbar {
       display: block; }
       .header-navbar .navbar a {
         margin: 1.5rem;
-        padding: .5rem;
+        padding: 0.5rem;
         font-size: 2rem; } }
 
 .contenedor-video {
@@ -201,17 +213,18 @@ div.instruccion span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   border-radius: 1rem;
-  overflow: hidden; }
+  overflow: hidden;
+  min-height: 35rem; }
   .competencia-container .competencia-info {
-    background-color: #FFD13E; }
+    background-color: #545479;
+    color: #FFF;
+    padding: 5% 10%; }
     .competencia-container .competencia-info h3 {
       font-size: 3rem;
-      margin: 2rem 0;
-      padding: 0 2%; }
+      margin: 2rem 0; }
     .competencia-container .competencia-info p {
       font-size: 1.7rem;
       text-align: justify;
-      padding: 2%;
       line-height: 1.8; }
   .competencia-container .competencia-img {
     width: 100%;
@@ -221,16 +234,17 @@ div.instruccion span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   border-radius: 1rem;
-  overflow: hidden; }
+  overflow: hidden;
+  min-height: 35rem; }
   .informacion-container .informacion-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #45C6AA; }
+    padding: 5% 10%;
+    background-color: #EFCACA; }
     .informacion-container .informacion-info p {
       font-size: 1.7rem;
       text-align: center;
-      padding: 0 2%;
       line-height: 1.8; }
   .informacion-container .informacion-img {
     width: 100%;
@@ -263,10 +277,11 @@ div.instruccion span {
     background-color: black; }
 
 .dinamica-contenedor button {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
+  font-weight: bold;
   background-color: transparent;
   border-radius: 1rem;
-  color: #45C6AA; }
+  color: #545479; }
 
 .dinamica-contenedor .dinamica-btn {
   max-width: 30rem;
@@ -277,8 +292,12 @@ div.instruccion span {
   margin: 0 auto;
   max-width: 30rem; }
 
-.dinamica .modal-header, .dinamica .modal-footer {
+.dinamica .modal-header,
+.dinamica .modal-footer {
   border: none; }
+
+.dinamica .modal-footer button {
+  font-size: 2rem; }
 
 .dinamica #dinamicaModal .modal-content {
   background-color: #EFCACA; }
@@ -289,10 +308,8 @@ div.instruccion span {
     padding: 0 1rem;
     font-size: 1.6rem; }
 
-.dinamica #dinamicaModal .modal-footer button {
-  font-size: 2rem; }
-
-.dinamica td, .dinamica tr {
+.dinamica td,
+.dinamica tr {
   border: 1px solid black;
   text-align: center; }
 
@@ -355,15 +372,15 @@ div.instruccion span {
     background: rgba(255, 255, 255, 0.9); }
   .lineamientos-contenedor .side-left {
     left: 0;
-    background: #FFD13E;
+    background: #EFCACA;
     color: #FFF;
-    outline: 1px solid #FFD13E;
+    outline: 1px solid #EFCACA;
     /* avoid gap */ }
   .lineamientos-contenedor .side-right {
     right: 0;
-    background: #EFCACA;
+    background: #545479;
     color: white;
-    outline: 1px solid #EFCACA;
+    outline: 1px solid #545479;
     /* avoid gap */ }
   .lineamientos-contenedor .intro-content {
     position: absolute;
@@ -435,18 +452,18 @@ div.instruccion span {
             backface-visibility: hidden; }
   .lineamientos-contenedor .page-right {
     left: 25%;
-    outline: 5px solid #FFD13E;
+    outline: 5px solid #EFCACA;
     /* avoid rounding gaps */
-    background: #FFD13E;
+    background: #EFCACA;
     /*color: #006b83;*/
     color: #000000;
     transform: translateX(100%); }
   .lineamientos-contenedor .page-left {
     left: 0;
-    outline: 5px solid #EFCACA;
+    outline: 5px solid #545479;
     /* avoid rounding gaps */
-    background: #EFCACA;
-    color: black !important;
+    background: #545479;
+    color: #FFF;
     /*color: #006b83;*/
     text-align: justify;
     transform: translateX(-100%); }
@@ -569,21 +586,22 @@ div.instruccion span {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background: #FFD13E;
-    color: black; }
+    background: #545479;
+    color: #FFF;
+    padding: 3%; }
     .expertos-card--content p:last-of-type {
       text-transform: lowercase;
       text-decoration: underline; }
     .expertos-card--content button {
       font-size: 2rem;
       margin: 1rem;
-      color: black;
+      color: #FFF;
       background: transparent;
       align-self: end;
-      border: .1rem solid transparent;
-      transition: all .5s ease-in-out; }
+      border: 0.1rem solid transparent;
+      transition: all 0.5s ease-in-out; }
       .expertos-card--content button:hover {
-        border: .1rem solid black; }
+        border: 0.1rem solid #FFF; }
   .expertos-card--img {
     width: 100%; }
     .expertos-card--img img {
@@ -690,7 +708,7 @@ div.instruccion span {
   .contenido-wrapper .contenido-link {
     position: relative;
     text-decoration: none;
-    background-color: #FFD13E;
+    background-color: #545479;
     border-radius: 1rem;
     overflow: hidden;
     text-align: center; }
@@ -714,7 +732,7 @@ div.instruccion span {
         font-size: 3rem; }
 
 footer {
-  background: #EFCACA;
+  background: #45C6AA;
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
@@ -737,43 +755,43 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   border-radius: 1rem;
+  min-height: 35rem;
   overflow: hidden; }
   .proposito-container--info {
-    background-color: #FFD13E;
-    padding: 2rem;
+    background-color: #45C6AA;
+    padding: 5% 10%;
     text-align: justify; }
     .proposito-container--info h3 {
       font-size: 3rem;
+      margin-bottom: 2rem;
       font-weight: bold; }
   .proposito-container--img {
     background-image: url("../img/Modulo 1/6Proposito_Modulo1.webp"); }
     .proposito-container--img.mod2 {
-      background-image: url("../img/Modulo 2/14Proposito_Modulo2.webp"); }
+      background-image: url("../img/Modulo 2/13Proposito_Modulo2.webp"); }
     .proposito-container--img.mod3 {
       background-image: url("../img/Modulo 3/17Proposito_Modulo3.webp"); }
 
-.intro .swiper-button-next, .intro .swiper-button-prev {
-  color: #545479;
-  font-weight: bold; }
-
-.intro .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #545479; }
+.intro .carousel-indicators button {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%; }
+  .intro .carousel-indicators button.active {
+    background-color: #545479; }
 
 .intro-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   border-radius: 1rem;
   overflow: hidden; }
-  .intro-grid--img {
-    background-image: url("../img/Modulo 1/7Introduccion_Modulo1.webp"); }
-    .intro-grid--img.mod2 {
-      background-image: url("../img/Modulo 2/15Introduccion_Modulo2.webp"); }
-    .intro-grid--img.mod3 {
-      background-image: url("../img/Modulo 3/18Introduccion_Modulo3.webp"); }
-    .intro-grid--img.mod3-1 {
-      background-image: url("../img/Modulo 3/18Introduccion_Modulo3_1.webp"); }
+  .intro-grid--img.mod2 {
+    background-image: url("../img/Modulo 2/14Introduccion_Modulo2.webp"); }
+  .intro-grid--img.mod3 {
+    background-image: url("../img/Modulo 3/18Introduccion_Modulo3.webp"); }
+  .intro-grid--img.mod3-1 {
+    background-image: url("../img/Modulo 3/18Introduccion_Modulo3_1.webp"); }
   .intro-grid--content {
-    padding: 2rem .5rem;
+    padding: 2rem 0.5rem;
     text-align: justify;
     background-color: #EFCACA; }
     @media (min-width: 480px) {
@@ -796,104 +814,59 @@ footer {
   -o-object-fit: cover;
      object-fit: cover; }
 
-.contenido .slide {
-  width: 100%;
-  display: grid;
-  place-content: center;
-  margin-bottom: 3rem; }
-
-.contenido .slide img {
-  display: block;
-  max-width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover; }
-
-.contenido .swiper-pagination-bullet {
-  width: 3rem;
-  height: 1rem;
-  border-radius: 0; }
-
-.contenido .swiper-button-next, .contenido .swiper-button-prev {
-  color: #545479;
-  font-weight: bold;
-  top: 45%; }
-
-.contenido .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #545479; }
-
-@media (min-width: 991px) {
-  .contenido .swiper-button-next::after, .contenido .swiper-button-prev::after {
-    font-size: 10rem; }
-  .contenido .swiper-button-next {
-    right: 25%; }
-  .contenido .swiper-button-prev {
-    left: 25%; } }
-
-.btn-link {
-  display: block;
-  max-width: 30rem;
-  margin: 0 auto; }
-
-.wrapper {
-  align-items: center;
-  display: flex;
-  max-height: 100%;
-  justify-content: center;
-  width: 100%;
-  overflow: hidden; }
-
-#flipbook {
-  max-width: 100%;
-  height: 80rem; }
-  #flipbook img {
-    display: block;
-    height: 100%;
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover; }
-
-.hard {
-  background: #504f4f;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.page.bg-img {
-  background: url("../img/Modulo 1/Entornos visuales de aprendizaje_modulo1 contenido fondo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.page.bg-img p, .page.bg-img h3 {
-  padding: 10px 40px;
-  text-align: justify; }
-
-@media (max-width: 450px) {
-  .page.bg-img p, .page.bg-img h3 {
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    text-align: justify; }
-  #flipbook {
-    height: 50rem; } }
+#home-slider .swiper-text {
+  height: 50rem;
+  padding: 5% 10%; }
+  #home-slider .swiper-text h3 {
+    margin: 3rem 0; }
+  @media (max-width: 900px) {
+    #home-slider .swiper-text {
+      margin: 5rem 0 0 0;
+      padding: 0 3rem; } }
 
 .content-wrapper--icons {
-  margin-top: 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem; }
+  gap: 2rem;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); }
   .content-wrapper--icons button {
-    border-radius: .5rem;
-    border: 1px solid #545479;
-    overflow: hidden; }
-    .content-wrapper--icons button:hover {
-      transform: scale(1.1); }
-    .content-wrapper--icons button h3 {
-      color: #545479;
-      padding: 1rem;
-      font-weight: bold;
-      border-top: 1px solid #545479; }
+    background-color: transparent; }
+
+#pills-tab {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap; }
+  #pills-tab li {
+    width: 100%;
+    min-height: 100%; }
+    #pills-tab li button {
+      padding: 1.5rem 0;
+      width: 100%;
+      min-height: 100%;
+      font-weight: 700;
+      background-color: #545479;
+      border: 0.1rem solid #FFF;
+      color: #FFF;
+      border-radius: 0; }
+      @media (max-width: 500px) {
+        #pills-tab li button {
+          font-size: 1.2rem; } }
+      #pills-tab li button.active {
+        background-color: #EFCACA;
+        color: #000; }
+
+.tab-pane {
+  padding: 1rem; }
+  .tab-pane p {
+    text-align: justify; }
+    .tab-pane p:last-of-type {
+      margin: 2rem 0;
+      text-align: end;
+      font-size: 1.4rem; }
+  .tab-pane ul {
+    text-align: justify; }
 
 .actividades-container {
   display: grid;
